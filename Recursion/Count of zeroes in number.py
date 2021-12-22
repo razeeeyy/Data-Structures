@@ -5,5 +5,5 @@ def countNumberOfZeros(n):
         return 1+countNumberOfZeros(n//10)
     else:
         return countNumberOfZeros(n//10)
-n=708000
+n=2021
 print(countNumberOfZeros(n))
